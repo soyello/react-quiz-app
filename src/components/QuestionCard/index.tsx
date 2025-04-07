@@ -29,11 +29,11 @@ const QuestionCard: React.FC<QuestionCardProps> = ({
           <p dangerouslySetInnerHTML={{ __html: questions }} />
         </Heading>
         <Flex direction='column'>
-          <Box w='100%' mt={4}>
+          <Box w='100%' mb={4} mt={4}>
             <AppButton colorScheme='purple' variant='outline' onClick={checkAnswer} value='True' width='full' />
           </Box>
           <Spacer />
-          <Box w='100%' mt={4}>
+          <Box w='100%' mb={4}>
             <AppButton colorScheme='purple' variant='outline' onClick={checkAnswer} value='False' width='full' />
           </Box>
         </Flex>
